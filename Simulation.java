@@ -5,22 +5,6 @@ import java.util.Scanner;
 
 public class Simulation {
 
-    // Note: Non-Static methods or variables cannot be accessed inside static methods!
-    // Note: Vise Versa is possible!
-
-    // Difference between List and Array:
-    /*
-
-        List :- Stores collection of data, It is dynamic (no fixed sized), faster to access, rich in mothod,
-        Array :- Stores collection of data but it is not dynamic (fixed sized)
-
-     */
-
-        // Interface : blue print to create class
-        // class : blue print to create objects
-        // object: instance of a class
-    
-
     static Scanner sc = new Scanner(System.in);
     static List<Bank> accounts = new ArrayList<>();
 
