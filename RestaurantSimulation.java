@@ -50,8 +50,8 @@ class Category {
 
 public class RestaurantSimulation {
     static Scanner sc = new Scanner(System.in);
-    static List<Food> foodList = new ArrayList<>();     // FIXED name
-    static List<Category> categoryList = new ArrayList<>(); // FIXED name
+    static List<Food> foodList = new ArrayList<>();     
+    static List<Category> categoryList = new ArrayList<>(); 
 
     public static void foodSimulation() {
         System.out.println("Enter the Food Name: ");
@@ -60,10 +60,10 @@ public class RestaurantSimulation {
         System.out.println("Enter the price: ");
         double price = sc.nextDouble();
 
-        System.out.println("Enter Order Number: "); // FIXED
+        System.out.println("Enter Order Number: "); 
         int orderNumber = sc.nextInt();
 
-        Food f = new Food(name, price, orderNumber); // FIXED
+        Food f = new Food(name, price, orderNumber); 
         foodList.add(f);
 
         System.out.println("Food Added Successfully!");
@@ -72,10 +72,10 @@ public class RestaurantSimulation {
 
     public static void categorySimulation() {
         System.out.println("Select the category (Indian, Continental, Chinese, Italian)");
-        String catName = sc.next(); // FIXED variable name
+        String catName = sc.next(); 
 
         Category c = new Category(catName);
-        categoryList.add(c); // FIXED
+        categoryList.add(c); 
 
         System.out.println("Category Added Successfully!");
         c.display();
@@ -101,7 +101,7 @@ public class RestaurantSimulation {
                     break;
 
                 case 3:
-                    System.out.println("Thank you for visiting!");
+                    System.out.println("Thank you for visiting Patil's Restaurant!");
                     sc.close();
                     System.exit(0);
 
