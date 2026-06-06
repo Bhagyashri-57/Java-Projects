@@ -13,7 +13,7 @@ public class ATMSimulation extends JFrame implements ActionListener {
     JTextField t1;
     JButton deposit, withdraw, balance, exit;
 
-    double amount = 10000; // Initial Balance
+    double amount = 10000; 
 
     public ATMSimulation() {
 
