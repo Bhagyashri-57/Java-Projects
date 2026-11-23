@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmergencyAlert",
+            "request": "launch",
+            "mainClass": "EmergencyAlert",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "SmartTraffic",
             "request": "launch",
             "mainClass": "SmartTraffic",
