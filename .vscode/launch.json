@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmartTrainAssistent",
+            "request": "launch",
+            "mainClass": "SmartTrainAssistent",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "EmergencyAlert",
             "request": "launch",
             "mainClass": "EmergencyAlert",
