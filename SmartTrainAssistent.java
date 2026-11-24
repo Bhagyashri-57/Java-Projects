@@ -19,9 +19,9 @@ class Train {
     TrainStatus status;
 
     Train(int trainNumber, String trainName,
-          String source, String destination,
-          String platform, String arrivalTime,
-          String departureTime, TrainStatus status) {
+        String source, String destination,
+        String platform, String arrivalTime,
+        String departureTime, TrainStatus status) {
 
         this.trainNumber = trainNumber;
         this.trainName = trainName;

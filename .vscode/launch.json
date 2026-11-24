@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmartParking",
+            "request": "launch",
+            "mainClass": "SmartParking",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "SmartTrainAssistent",
             "request": "launch",
             "mainClass": "SmartTrainAssistent",
