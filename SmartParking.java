@@ -25,6 +25,7 @@ public class SmartParking {
     static final int TOTAL_SLOTS = 10;
     static final double RATE_PER_HOUR = 30.0;
 
+
     static void initializeParking() {
         for (int i = 1; i <= TOTAL_SLOTS; i++) {
             slots.add(new ParkingSlot(i));

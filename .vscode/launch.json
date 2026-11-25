@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TypingSpeedChallenge",
+            "request": "launch",
+            "mainClass": "TypingSpeedChallenge",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "SmartParking",
             "request": "launch",
             "mainClass": "SmartParking",
