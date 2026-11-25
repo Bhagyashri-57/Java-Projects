@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FloodPredictionSimulator",
+            "request": "launch",
+            "mainClass": "FloodPredictionSimulator",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "TypingSpeedChallenge",
             "request": "launch",
             "mainClass": "TypingSpeedChallenge",
