@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmergencyAlertSystem",
+            "request": "launch",
+            "mainClass": "EmergencyAlertSystem",
+            "projectName": "JavaProject_9831f0d2"
+        },
+        {
+            "type": "java",
             "name": "FloodPredictionSimulator",
             "request": "launch",
             "mainClass": "FloodPredictionSimulator",
