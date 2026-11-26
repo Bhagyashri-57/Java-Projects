@@ -1,5 +1,7 @@
 
-import java.util.*;
+import java.util.ArrayListrrayList;
+import java.util.Scanner;
+import java.util.Scanner;
 
 public class EmergencyAlertSystem {
 
